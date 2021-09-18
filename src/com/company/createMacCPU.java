@@ -1,13 +1,19 @@
 package com.company;
 
 public class createMacCPU implements cpuMaker{
+
     @Override
-    public void checkCPUtemp() {
+    public void setCPUPrice() {
 
     }
 
     @Override
-    public void checkCPUclkSpd() {
+    public void setCPUclkSpd() {
+
+    }
+
+    @Override
+    public void setCPUName() {
 
     }
 }

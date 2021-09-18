@@ -1,7 +1,7 @@
 package com.company;
 
 public interface cpuMaker {
-    void checkCPUtemp();
-    void checkCPUclkSpd();
-
+    void setCPUPrice();
+    void setCPUclkSpd();
+    void setCPUName();
 }
