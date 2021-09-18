@@ -1,13 +1,15 @@
 package com.company;
 
 public class macFactory implements productMaker{
+
+
     @Override
-    public void createiPhone() {
+    public void screenMaker() {
 
     }
 
     @Override
-    public void createMac() {
+    public void cpuMaker() {
 
     }
 }
