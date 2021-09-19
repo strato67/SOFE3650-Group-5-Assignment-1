@@ -13,45 +13,56 @@ public class Main {
 
         Scanner scan = new Scanner(System.in);
 
-        int menu = 0;
+        int factorySelection = 0;
+        int productSelection = 0;
 
-        ProductFactory factory1;
-        ProductFactory factory2;
+        ProductFactory productFactory;
+
+
+
+
 
         do{
-            System.out.println("What part would you like to make:");
-            System.out.println("1: Iphone CPU");
-            System.out.println("2: Macbook CPU");
-            System.out.println("3: Iphone Screen");
-            System.out.println("4: Macbook Screen\n");
-            System.out.println("0: to exit\n");
-            //take input
-            menu = scan.nextInt();
 
 
-            switch(menu){
+            System.out.println("Please select your Factory");
+            System.out.println("1: Iphone parts");
+            System.out.println("2: Macbook parts");
+
+            factorySelection = scan.nextInt();
+            switch(factorySelection){
                 case 1:
-                    IphoneFactory Iphone = new IphoneFactory();
-                    Iphone.buildCpu();
+                    productFactory = new IphoneFactory();
                     break;
                 case 2:
-                    MacFactory macFact = new MacFactory();
-                    macFact.buildCpu();
+                    productFactory = new MacFactory();
                     break;
-                case 3:
-                    IphoneFactory Iphone2 = new IphoneFactory();
-                    Iphone2.buildScreen();
+                default:
+                    productFactory = null;
+                    System.exit(0);
+            }
+
+            System.out.println("Please select your Factory");
+            System.out.println("1: Cpu");
+            System.out.println("2: Screen");
+
+            productSelection = scan.nextInt();
+            switch(productSelection){
+                case 1:
+                    CPU cpu = productFactory.buildCpu();
+                    //cpu.setCPUPrice();
+                    //cpu.setCPUName();
                     break;
-                case 4:
-                    CPU cpu = new CPU();
-                    MacFactory macFact2 = new MacFactory();
-                    macFact2.buildScreen();
+                case 2:
+                    Screen screen = productFactory.buildScreen();
+                    //screen.SetScreenPrice();
+                    //screen.SetScreenName();
                     break;
                 default:
                     System.out.println("Choice must be between 1 - 4 or 0 to exit");
             }
 
-        }while (menu !=0);
+        }while (factorySelection !=0 || productSelection!=0);
 
 
     }
