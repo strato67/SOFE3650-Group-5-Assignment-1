@@ -1,13 +1,25 @@
 package com.company;
 
 public class createPhoneScreen implements screenMaker{
+    double screenPrice;
+    String screenName;
     @Override
-    public void checkScreenWorks() {
-
+    public boolean checkScreenWorks() {
+        return true;
     }
 
     @Override
-    public void checkColourAccuracy() {
+    public String checkColourAccuracy() {
+        return "Colour accuracy is optimal";
+    }
 
+    @Override
+    public void setScreenPrice(double screenPrice) {
+        this.screenPrice=screenPrice;
+    }
+
+    @Override
+    public void setScreenName(String screenName) {
+        this.screenName=screenName;
     }
 }

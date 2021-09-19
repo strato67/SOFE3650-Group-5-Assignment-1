@@ -1,6 +1,8 @@
 package com.company;
 
 public interface screenMaker {
-    void checkScreenWorks();
-    void checkColourAccuracy();
+    boolean checkScreenWorks();
+    String checkColourAccuracy();
+    void setScreenPrice(double screenPrice);
+    void setScreenName(String screenName);
 }
