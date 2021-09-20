@@ -11,21 +11,22 @@ Saaransh Sharma - 100701820
 
 # Table of Contents
 
-1. [**Main**](#Use-Cases)
+1. **Main**
     1. [Driver Test Code](src/com/company/Main.java)
 
-3. [**Requirements**](#Requirements)
-    1. [Requirements Page](/Requirements/)
+2. [**ProductFactory**](src/com/company/ProductFactory.java)
+    1. [IphoneFactory](/src/com/company/IphoneFactory.java)
+    2. [MacFactory](/src/com/company/MacFactory.java)
 
-4. [**Design**](#Design)
+3. [**Design**](#Design)
     1. [Design Page](/Design/)
 
-5. [**Code**](#Code)
+4. [**Code**](#Code)
     1. [Code Page](/Code/)
-6. [**Test Cases**](#Test-Cases)
+5. [**Test Cases**](#Test-Cases)
     1. [Test Cases Page](/Test%20Cases/)
 
-7. Screen Dump
+6. Screen Dump
   - ![Image of Iphone Factory](/Images/image1.PNG)
   - ![Image of Mac Factory](/Images/image2.PNG)
 
