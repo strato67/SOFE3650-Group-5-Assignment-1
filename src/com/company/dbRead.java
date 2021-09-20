@@ -5,9 +5,6 @@ import java.util.Scanner;
 
 public class dbRead {
 
-    public static void main(String[] args) throws FileNotFoundException {
-        dbRead dbRead = new dbRead();
-    }
     ArrayList<String[]> database  = new ArrayList<>(); // Create an ArrayList object
 
     public dbRead() throws FileNotFoundException {
