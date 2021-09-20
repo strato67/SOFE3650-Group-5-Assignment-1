@@ -11,7 +11,7 @@ public class Main {
 
     public static void main(String[] args) throws FileNotFoundException {
 	// write your code here
-        System.out.println("If your hungry for code Factory");
+        System.out.println("	Factory Generator");
         System.out.println("____________________________");
         Scanner scan = new Scanner(System.in);
 
@@ -26,8 +26,8 @@ public class Main {
 
 
             System.out.println("Please select your Factory");
-            System.out.println("1: Iphone parts");
-            System.out.println("2: Macbook parts");
+            System.out.println("1: Iphone Factory");
+            System.out.println("2: Macbook Factory");
 
             factorySelection = scan.nextInt();
             switch(factorySelection){
@@ -42,7 +42,7 @@ public class Main {
                     System.exit(0);
             }
 
-            System.out.println("Please select your Factory");
+            System.out.println("Please select your Part");
             System.out.println("1: Cpu");
             System.out.println("2: Screen");
 
