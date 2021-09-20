@@ -26,7 +26,8 @@ Saaransh Sharma - 100701820
     1. [Test Cases Page](/Test%20Cases/)
 
 7. Screen Dump
-   ![Image of Iphone Factory](/Images/image1.PNG)
+  - ![Image of Iphone Factory](/Images/image1.PNG)
+  - ![Image of Mac Factory](/Images/image2.PNG)
 
 
 
