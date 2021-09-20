@@ -25,7 +25,7 @@ Saaransh Sharma - 100701820
     1. [IphoneFactory](/src/com/company/IphoneFactory.java)
     2. [MacFactory](/src/com/company/MacFactory.java)
 4. UML Diagram
-   -![Image of UML] /Factory Pattern assignment 1 UML.svg
+   -![Image of UML] (/Factory Pattern assignment 1 UML.svg)
     
 
 5. Screen Dump
