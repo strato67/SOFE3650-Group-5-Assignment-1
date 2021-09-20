@@ -14,7 +14,6 @@ public class createMacCPU implements CPU{
 
     public createMacCPU(){
         this(100,"10 ghz","A2");
-        System.out.println(toString());
     }
 
 
@@ -35,10 +34,6 @@ public class createMacCPU implements CPU{
 
     @Override
     public String toString() {
-        return "createMacCPU{" +
-                "cpuPrice=" + cpuPrice +
-                ", cpuSpd=" + cpuSpd +
-                ", cpuName='" + cpuName + '\'' +
-                '}';
+        return "cpuPrice=" + cpuPrice + ", cpuName='" + cpuName + '\''+'\n';
     }
 }

@@ -16,20 +16,17 @@ public class createPhoneScreen implements Screen{
     }
 
     @Override
-    public void SetScreenPrice(double screenPrice) {
+    public void setScreenPrice(double screenPrice) {
         this.screenPrice = screenPrice;
     }
 
     @Override
-    public void SetScreenName(String screenName) {
+    public void setScreenName(String screenName) {
         this.screenName = screenName;
     }
 
     @Override
     public String toString() {
-        return "createPhoneScreen{" +
-                "screenPrice=" + screenPrice +
-                ", screenName='" + screenName + '\'' +
-                '}';
+        return "screenPrice = " + screenPrice + ", screenName = '" + screenName + '\''+"\n";
     }
 }

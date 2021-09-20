@@ -14,7 +14,6 @@ public class createPhoneCPU implements CPU {
 
     public createPhoneCPU(){
         this(75, "5Ghz","A1");
-        System.out.println(toString());
     }
 
     @Override
@@ -34,10 +33,7 @@ public class createPhoneCPU implements CPU {
 
     @Override
     public String toString() {
-        return "createPhoneCPU{" +
-                "cpuPrice=" + cpuPrice +
-                ", cpuSpd='" + cpuSpd + '\'' +
-                ", cpuName='" + cpuName + '\'' +
-                '}';
+        return "cpuPrice=" + cpuPrice + ", cpuName='" + cpuName + '\''+'\n';
+
     }
 }

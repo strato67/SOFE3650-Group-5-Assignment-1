@@ -12,26 +12,21 @@ public class createMacScreen implements Screen{
 
     public createMacScreen() {
         this(1000, "13inch");
-        System.out.println("default constructor");
     }
 
-
     @Override
-    public void SetScreenPrice(double screenPrice) {
+    public void setScreenPrice(double screenPrice) {
         this.screenPrice = screenPrice;
 
     }
 
     @Override
-    public void SetScreenName(String screenName) {
+    public void setScreenName(String screenName) {
         this.screenName = screenName;
     }
 
     @Override
     public String toString() {
-        return "createMacScreen{" +
-                "screenPrice=" + screenPrice +
-                ", screenName='" + screenName + '\'' +
-                '}';
+        return "screenPrice = " + screenPrice + ", screenName = '" + screenName + '\''+"\n";
     }
 }
