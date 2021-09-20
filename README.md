@@ -29,7 +29,7 @@ Saaransh Sharma - 100701820
     5. [dbRead](/src/com/company/dbRead.java)
 
 4. **UML Diagram**
-    ![Image of UML](/Factory Pattern assignment 1 UML.svg/)
+    ![Image of UML](Factory Pattern assignment 1 UML.svg/)
    
 5. Screen Dump
   - ![Image of Iphone Factory](/Images/image1.PNG)
