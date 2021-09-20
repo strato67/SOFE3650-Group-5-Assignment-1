@@ -29,7 +29,6 @@ Saaransh Sharma - 100701820
     - [Image of Iphone Factory](/Images/image1.PNG)
 
 
-    - [Image of Mac Factory](/Images/image2.PNG)
 
 
 
