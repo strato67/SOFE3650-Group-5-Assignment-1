@@ -2,13 +2,13 @@ package com.company;
 
 public class MacFactory implements ProductFactory{
     @Override
-    public void setCPUPrice(CPU cpu, float price) {
+    public void setCPUPrice(CPU cpu, double price) {
         cpu.setCPUPrice(price);
     }
 
 
     @Override
-    public void setScreenPrice(Screen screen, float price) {
+    public void setScreenPrice(Screen screen, double price) {
         screen.setScreenPrice(price);
     }
     @Override

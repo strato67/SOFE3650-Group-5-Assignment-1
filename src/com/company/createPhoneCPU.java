@@ -3,27 +3,21 @@ package com.company;
 public class createPhoneCPU implements CPU {
 
     private double cpuPrice;
-    private String cpuSpd;
+
     private String cpuName;
 
-    public createPhoneCPU(double cpuPrice, String cpuSpd, String cpuName) {
+    public createPhoneCPU(double cpuPrice, String cpuName) {
         this.cpuPrice = cpuPrice;
-        this.cpuSpd = cpuSpd;
         this.cpuName = cpuName;
     }
 
     public createPhoneCPU(){
-        this(75, "5Ghz","A1");
+        this(75,"A1");
     }
 
     @Override
     public void setCPUPrice(double cpuPrice) {
         this.cpuPrice = cpuPrice;
-    }
-
-    @Override
-    public void setCPUSpd(String cpuSpd) {
-        this.cpuSpd = cpuSpd;
     }
 
     @Override

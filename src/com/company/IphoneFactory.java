@@ -3,12 +3,12 @@ package com.company;
 public class IphoneFactory implements ProductFactory {
 
     @Override
-    public void setCPUPrice(CPU cpu, float price) {
+    public void setCPUPrice(CPU cpu, double price) {
         cpu.setCPUPrice(price);
     }
 
     @Override
-    public void setScreenPrice(Screen screen, float price) {
+    public void setScreenPrice(Screen screen, double price) {
         screen.setScreenPrice(price);
     }
 
@@ -20,6 +20,7 @@ public class IphoneFactory implements ProductFactory {
     public void setCPUName(CPU cpu, String name) {
         cpu.setCPUName(name);
     }
+
     @Override
     public CPU buildCpu() {
         System.out.println("created new Iphone CPU");

@@ -11,7 +11,7 @@ public class Main {
 
     public static void main(String[] args) throws FileNotFoundException {
 	// write your code here
-        System.out.println("IF your hungry for code Factory");
+        System.out.println("If your hungry for code Factory");
         System.out.println("____________________________");
         Scanner scan = new Scanner(System.in);
 
@@ -60,7 +60,7 @@ public class Main {
                     //Iphone 5-inch
                     case 2:
                         Screen screen = productFactory.buildScreen();
-                        productFactory.setScreenPrice(screen, Float.parseFloat(dbRead.getDatabase().get(1)[1]));
+                        productFactory.setScreenPrice(screen, Double.parseDouble(dbRead.getDatabase().get(1)[1]));
                         productFactory.setScreenName(screen, dbRead.getDatabase().get(1)[0]);
                         System.out.println(screen);
                         break;
@@ -81,7 +81,7 @@ public class Main {
                     //Macbook 13 inch
                     case 2:
                         Screen screen = productFactory.buildScreen();
-                        productFactory.setScreenPrice(screen, Float.parseFloat(dbRead.getDatabase().get(3)[1]));
+                        productFactory.setScreenPrice(screen, Double.parseDouble(dbRead.getDatabase().get(3)[1]));
                         productFactory.setScreenName(screen, dbRead.getDatabase().get(3)[0]);
                         System.out.println(screen);
                         break;
