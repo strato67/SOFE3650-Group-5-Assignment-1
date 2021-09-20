@@ -24,9 +24,10 @@ Saaransh Sharma - 100701820
 3. **Classes**
     1. [IphoneFactory](/src/com/company/IphoneFactory.java)
     2. [MacFactory](/src/com/company/MacFactory.java)
+4. Screen Dump
+    
 
-
-6. Screen Dump
+5. Screen Dump
   - ![Image of Iphone Factory](/Images/image1.PNG)
   - ![Image of Mac Factory](/Images/image2.PNG)
 
