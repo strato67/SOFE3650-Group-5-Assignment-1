@@ -8,6 +8,11 @@ public class IphoneFactory implements ProductFactory {
     }
 
     @Override
+    public void setCPUName(CPU cpu, String name) {
+        cpu.setCPUName(name);
+    }
+
+    @Override
     public void setScreenPrice(Screen screen, double price) {
         screen.setScreenPrice(price);
     }
@@ -16,10 +21,7 @@ public class IphoneFactory implements ProductFactory {
     public void setScreenName(Screen screen, String name) {
         screen.setScreenName(name);
     }
-    @Override
-    public void setCPUName(CPU cpu, String name) {
-        cpu.setCPUName(name);
-    }
+
 
     @Override
     public CPU buildCpu() {

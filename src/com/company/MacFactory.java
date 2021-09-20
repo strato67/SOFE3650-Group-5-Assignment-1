@@ -1,20 +1,20 @@
 package com.company;
 
 public class MacFactory implements ProductFactory{
+
     @Override
     public void setCPUPrice(CPU cpu, double price) {
         cpu.setCPUPrice(price);
     }
 
+    @Override
+    public void setCPUName(CPU cpu, String name) {
+        cpu.setCPUName(name);
+    }
 
     @Override
     public void setScreenPrice(Screen screen, double price) {
         screen.setScreenPrice(price);
-    }
-    @Override
-    public CPU buildCpu() {
-        System.out.println("Created new Mac CPU");
-        return new createMacCPU();
     }
 
     @Override
@@ -22,9 +22,11 @@ public class MacFactory implements ProductFactory{
         screen.setScreenName(name);
     }
 
+
     @Override
-    public void setCPUName(CPU cpu, String name) {
-        cpu.setCPUName(name);
+    public CPU buildCpu() {
+        System.out.println("Created new Mac CPU");
+        return new createMacCPU();
     }
 
     @Override
