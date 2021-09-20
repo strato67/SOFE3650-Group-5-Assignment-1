@@ -26,7 +26,7 @@ Saaransh Sharma - 100701820
     1. [Test Cases Page](/Test%20Cases/)
 
 7. Screen Dump
-    - ![Image of Yaktocat](src/Images/image1.PNG)
+    - ![Image of Yaktocat](/Images/image1.PNG)
 
 
 
