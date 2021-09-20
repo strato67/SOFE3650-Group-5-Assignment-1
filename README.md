@@ -14,17 +14,13 @@ Saaransh Sharma - 100701820
 1. **Main**
     1. [Driver Test Code](src/com/company/Main.java)
 
-2. [**ProductFactory**](src/com/company/ProductFactory.java)
+2. [**Interface**](#Design)
+    1. [Design Page](/Design/)
+
+3. [**Classes**](src/com/company/ProductFactory.java)
     1. [IphoneFactory](/src/com/company/IphoneFactory.java)
     2. [MacFactory](/src/com/company/MacFactory.java)
 
-3. [**Design**](#Design)
-    1. [Design Page](/Design/)
-
-4. [**Code**](#Code)
-    1. [Code Page](/Code/)
-5. [**Test Cases**](#Test-Cases)
-    1. [Test Cases Page](/Test%20Cases/)
 
 6. Screen Dump
   - ![Image of Iphone Factory](/Images/image1.PNG)
