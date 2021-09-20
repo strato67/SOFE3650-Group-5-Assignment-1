@@ -10,8 +10,8 @@ Saaransh Sharma - 100701820
 
 
 # Table of Contents
-1. [**Objective**](#Objective)
-2. [**Main**](#Use-Cases)
+
+1. [**Main**](#Use-Cases)
     1. [Driver Test Code](src/com/company/Main.java)
 
 3. [**Requirements**](#Requirements)
